@@ -1,0 +1,52 @@
+body{
+    --white-dark: #f0f0f0;
+    --white-darker: #efefef;
+    --gray-light: #454545;
+    --gray: #2e2e2e;
+    --gray-dark: #232323;
+    --bm-blue: #001641;
+    --bm-blue-dark: #000c22;
+    --blue: #26b;
+    /* --black: #282C34; */
+
+
+    background-color: var(--bm-blue);
+    color: white;
+}
+
+#navigation{
+    background-color: var(--bm-blue-dark);
+}
+.navbar-dark{
+    color: var(--white-dark);
+}
+
+#title{
+    color: var(--white-dark);
+    background-color: var(--bm-blue);
+}
+
+#under{
+    fill: var(--white-dark);
+}
+
+.carousel-item p{
+    background-color: var(--gray-dark);
+}
+
+.over-fixed{
+    color: var(--gray-light);
+    background-color: white;
+}
+
+#testimonials{
+    background-color: var(--gray);
+}
+
+#contact{
+    background-color: var(--gray-dark);
+}
+
+.table td{
+    color: var(--white);
+}

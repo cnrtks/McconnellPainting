@@ -1,0 +1,162 @@
+/*---Media Queries --*/
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+body {
+  font-family: Georgia;
+  font-weight: bolder;
+  background-color: #001641;
+  color: white;
+  /* background-image: url("../assets/brushBG.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 30vw; */
+}
+
+#navigation {
+  background-color: #000c22;
+  font-size: 2vw;
+}
+
+.navbar-dark{
+  color: #f0f0f0;
+}
+
+.navbar-brand svg {
+  max-width: 2em;
+  max-height: 2em;
+}
+
+#title {
+  color: #f0f0f0;
+  background-color: #001641;
+  padding: 16vmin;
+  /* margin: 4em; */
+}
+
+#title h1 {
+  font-size: 6vw;
+}
+
+#title h3 {
+  font-size: 3vw;
+}
+
+#under {
+  fill: #f0f0f0;
+  stroke: none;
+}
+
+#contact {
+  background-color: #232323;
+}
+
+/*---Firefox Bug Fix --*/
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item img {
+  /* width: 1024px; */
+  /* height: 768px; */
+  border-radius: 2em;
+}
+
+.carousel-caption {
+  visibility: collapse;
+}
+
+.carousel-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #232323;
+  display: table-cell;
+  opacity: .75;
+  padding: 2em;
+  border-radius: 2em;
+  min-width: 50%;
+  font-size: 2vw;
+}
+
+/*--- Fixed Background Image --*/
+
+figure {
+  position: relative;
+  width: 100%;
+  min-height: 16em;
+  margin: 0!important;
+}
+
+.fixed-bg-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed-bg-inner {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.paintbrush {
+  background-image: url('../assets/bg1.png');
+  border-radius: 2em;
+}
+
+.over-fixed {
+  color: #454545;
+  padding: 2em;
+  border-radius: 2em;
+  text-shadow: 0px 0px 5px white;
+  background-color: white;
+  opacity: .75;
+}
+
+.over-fixed img {
+  max-width: 100%;
+}
+
+#testimonials{
+  background-color: #2e2e2e;
+  opacity: 0.75;
+}
+
+.table td{
+  color: white;
+}
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.App {
+  text-align: center;
+}
