@@ -10,6 +10,10 @@ function Testimonials() {
             <Table>
                 <tbody>
                     <tr>
+                        <td>Ruben Goulart, Goulart Workplace Lawyers</td>
+                        <td> I have worked with David McConnell of McConnell Painting for both residential and commercial jobs.  I have always appreciated his attention to detail, his timing, and cleanliness.  When David says he will be at your place at a fixed time, he is always on time.  His work is incredibly professional and when he is done, he leaves his work area in a very clean state – it is as if he was not there.  I would have no reservation in recommending him, and will continue to use him myself</td>
+                    </tr>
+                    <tr>
                         <td>Doug & Micheline</td>
                         <td>Just wanted to drop you a quick e-mail to say thanks. From looking at the finished product, we couldn’t be happier – it looks amazing!! The colours are one thing, but the way the rooms have been finished is incredible, there is no way we could have done that level of prep and finish on our own – it is truly a professional job. We got exactly what we paid for, it really shows that it was just not a “guy with a brush and a van” that did the job, it was a tradesman that takes pride in their work. We couldn’t be happier with it, and will DEFINITELY be calling you again, and passing your name along to our friends. If you ever want to put us down as a reference please don’t hesitate to do so. Now we can get the dogs! Thanks for everything.</td>
                     </tr>
@@ -22,7 +26,7 @@ function Testimonials() {
                         <td>Unbelievably beautiful work! We have used McConnell Painting for years both interior and exterior. We can't say enough about how professional, courteous, timely and neat they are. We trust them so much we simply hand over our keys and off we go---when we return our projects always exceed our expectations!</td>
                     </tr>
                     <tr>
-                        <td>Don Kerr</td>
+                        <td>Don Kerr, President & Storyteller Grace Hanna Inc.</td>
                         <td>McConnell Painting were the true stars and wizards of this entire undertaking. They painted both the interior and exterior and were without exception the most meticulous, respectful, helpful and professional people with whom we worked. Couldn't recommend them more highly.</td>
                     </tr>
                     <tr>
